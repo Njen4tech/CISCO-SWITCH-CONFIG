@@ -55,5 +55,5 @@ Then select (Auto ZFS) as your partitions.
 <br />
 Proceed by selecting <I><B>Install pfSense</I></B>.
 <br />
-<img src="https://github.com/user-attachments/assets/091f710b-cb3d-43a7-8e1c-073534c3cab2"  height="70%" width="70%" alt=  
+<img src=""  height="70%" width="70%" alt=  
 "Install pfSense"/>
