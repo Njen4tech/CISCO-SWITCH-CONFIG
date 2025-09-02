@@ -26,7 +26,7 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 Downloads the Pfsense.<br/>
 <br /> 
 
-The Setup will prompt with a Copyright and Trademark Notices, once read then select <I><b>Accept</b></I>.  
+The Setup will prompt with a Copyright and Trademark Notices, once read, then select <I><b>Accept</b></I>.  
 <br />
 <img src="" height="70%" width="70%" alt=
 "Pfsense Install ISO FIle"/> 
