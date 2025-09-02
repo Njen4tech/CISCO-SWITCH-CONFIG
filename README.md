@@ -26,34 +26,34 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 Downloads the Pfsense.<br/>
 <br /> 
 
-The Setup will prompt with a Copyright and Trademark Notices, once read, then select <I><b>Accept</b></I>.  
+0<I><b>Accept</b></I>.  
 <br />
 <img src="" height="70%" width="70%" alt=
-"Pfsense Install ISO FIle"/> 
+"Pfsense Install ISO File"/> 
 <br />
 <br />
 <br />
-The Setup will prompt with a Copyright and Trademark Notices, then proceed by <I><B>Accept</B></I>.  
+0<I><B>Accept</B></I>.  
 <img src="" height="70%" width="70%" alt=
 "Pfsense Title"/> 
 <br />
 <br />
 <br />
-Proceed by selecting <I><B>Install pfSense</I></B>.
+0</I></B>.
 <br /> 
 <img src="" height="70%" width="70%" alt= 
 "Install pfSense"/>
 <br />
 <br />
 <br />
-Then select (Auto ZFS) as your partitions.
+0
 <br />
 <img src="" height="70%" width="70%" alt=  
 "AUTO ZFS"/> 
 <br />
 <br />
 <br />
-Proceed by selecting <I><B>Install pfSense</I></B>.
+0<I><B>Install pfSense</I></B>.
 <br />
 <img src=""  height="70%" width="70%" alt=  
 "Install pfSense"/>
