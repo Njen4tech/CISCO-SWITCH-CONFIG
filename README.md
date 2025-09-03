@@ -6,54 +6,96 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 
 
 
-<h2>Utility and Tools </h2>
+## 🛠️ Utility and Tools
 
-- <b>USB type </b>
-- <b>Power Cable</b>
-- <b>Cisco 3560 X 48Port Switch </b>
-  
-<h2>Environments Specifications </h2>
+- **USB Type** (Mini Type B)
+- **Power Cable**
+- **Cisco 3560-X 48-Port Switch**
 
->[!WARNING]
-><br>
->This is a demonstration of a configuration of a Cisco switch; a different model switch may vary in configuration method and syntax on the Cisco command line.
-</br>
-</br>
+---
 
-<h2>Program walk-through:</h2>
+## 🌐 Environment Specifications
+
+> ⚠️ **WARNING**  
+> This is a demonstration of a configuration of a Cisco switch.  
+> Different model switches may vary in configuration method and syntax on the Cisco command line.
+
+---
+
+## 🔧 CCL Walk-through
+
+### 1. Locating Console Port
 
 <p align="center">
-Downloads the Pfsense.<br/>
-<br /> 
+<img src="https://github.com/user-attachments/assets/eea95b75-3043-4b70-834e-966a9909307c" width="70%" alt="Cisco Console Port" />
+</p>
 
-0<I><b>Accept</b></I>.  
-<br />
-<img src="" height="70%" width="70%" alt=
-"Pfsense Install ISO File"/> 
-<br />
-<br />
-<br />
-0<I><B>Accept</B></I>.  
-<img src="" height="70%" width="70%" alt=
-"Pfsense Title"/> 
-<br />
-<br />
-<br />
-0</I></B>.
-<br /> 
-<img src="" height="70%" width="70%" alt= 
-"Install pfSense"/>
-<br />
-<br />
-<br />
-0
-<br />
-<img src="" height="70%" width="70%" alt=  
-"AUTO ZFS"/> 
-<br />
-<br />
-<br />
-0<I><B>Install pfSense</I></B>.
-<br />
-<img src=""  height="70%" width="70%" alt=  
-"Install pfSense"/>
+---
+
+### 2. Connect to the Console Port
+
+To connect to the console port on the 3560-X switch, use a USB Mini Type B cable.
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/14a9db29-9d79-4522-ae19-e3483a65ad0a" width="50%" alt="USB Mini Type B" />
+</p>
+
+---
+
+### 3. Use PuTTY to Configure the Switch
+
+<p align="center">
+<!-- Replace the empty src with your image URL -->
+<img src="https://github.com/user-attachments/assets/be75c2a0-ab57-46e0-9ce6-254a151dcceb" width="70%" alt="Using PuTTY to Configure" />
+</p>
+
+---
+
+### 4. Enter Terminal (changed Hostname by 
+
+<p align="center">
+<!-- Replace the empty src with your image URL -->
+<img src="" width="70%" alt="Change Host" />
+</p>
+
+---
+
+### 5. Enter Cisco Switch
+
+<p align="center">
+<!-- Replace the empty src with your image URL -->
+<img src="<!-- Add pfSense installation screenshot URL here -->" width="70%" alt="Installing pfSense" />
+</p>
+
+---
+
+### 6. Assigning IP Address to Switch
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/YOUR_IMAGE_HASH1.png" width="70%" alt="Assigning IP to Cisco Switch" />
+</p>
+
+---
+
+### 7. Testing Connectivity (Ping Command)
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/YOUR_IMAGE_HASH2.png" width="70%" alt="Ping Test Screenshot" />
+</p>
+
+---
+
+### 8. Saving the Configuration
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/YOUR_IMAGE_HASH3.png" width="70%" alt="Saving Configuration with write memory" />
+</p>
+
+---
+
+### 9. Final Setup Overview
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/YOUR_IMAGE_HASH4.png" width="70%" alt="Final Cisco Switch Setup Overview" />
+</p>
+
