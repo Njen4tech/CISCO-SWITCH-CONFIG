@@ -51,7 +51,7 @@ To connect to the console port on the 3560-X switch, use a USB Mini Type B cable
 
 ---
 
-### 4. Enter Terminal (changed Hostname by 
+### 4. Enter Terminal (Default hostname Change)
 
 <p align="center">
 <!-- Replace the empty src with your image URL -->
