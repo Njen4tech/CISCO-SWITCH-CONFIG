@@ -64,12 +64,12 @@ To connect to the console port on the 3560-X switch, use a USB Mini Type B cable
 
 <p align="center">
 <!-- Replace the empty src with your image URL -->
-<img src="https://github.com/user-attachments/assets/6c3227ff-e60c-4c19-8f04-5a2d5ffdb1e7" " width="70%" alt="Installing pfSense" />
+<img src="https://github.com/user-attachments/assets/6c3227ff-e60c-4c19-8f04-5a2d5ffdb1e7"  width="70%" alt="Installing pfSense" />
 </p>
 
 ---
 
-### 6. Assigning an IP Address to a Switch
+### 6. Configure and Assign VLAN hostname.
 
 <p align="center">
 <img src="" width="70%" alt="Assigning IP to Cisco Switch" />
@@ -80,7 +80,7 @@ To connect to the console port on the 3560-X switch, use a USB Mini Type B cable
 ### 7. Testing Connectivity (Ping Command)
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/YOUR_IMAGE_HASH2.png" width="70%" alt="Ping Test Screenshot" />
+<img width="1277" height="585" alt="Screenshot 2025-08-21 180344" src="https://github.com/user-attachments/assets/624e4bc5-6928-4256-bf18-3277207602ec" width="70%" alt="Ping Test Screenshot" />
 </p>
 
 ---
