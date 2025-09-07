@@ -69,7 +69,7 @@ To connect to the console port on the 3560-X switch, use a USB Mini Type B cable
 
 ---
 
-### 6. Configure and Assign VLAN hostname.
+### 6. Configure and assign a VLAN hostname.
 
 <p align="center">
 <img src="" width="70%" alt="Assigning IP to Cisco Switch" />
