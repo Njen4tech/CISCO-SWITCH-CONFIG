@@ -72,15 +72,15 @@ To connect to the console port on the 3560-X switch, use a USB Mini Type B cable
 ### 6. Configure and assign a VLAN hostname.
 
 <p align="center">
-<img src="" width="70%" alt="Assigning IP to Cisco Switch" />
+<img src="https://github.com/user-attachments/assets/c9790d40-f62c-4d89-9f29-bb946f213479" width="70%" alt="Assigning IP to Cisco Switch" />
 </p>
 
 ---
 
-### 7. Testing Connectivity (Ping Command)
+### 7. View VLAN list. 
 
 <p align="center">
-<img width="1277" height="585" alt="Screenshot 2025-08-21 180344" src="https://github.com/user-attachments/assets/624e4bc5-6928-4256-bf18-3277207602ec" width="70%" alt="Ping Test Screenshot" />
+<img src="https://github.com/user-attachments/assets/fcd637d7-4f7c-4e76-8325-e0c49e40dff5" width="70%" alt="Ping Test Screenshot" />
 </p>
 
 ---
@@ -88,7 +88,7 @@ To connect to the console port on the 3560-X switch, use a USB Mini Type B cable
 ### 8. Saving the Configuration
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/YOUR_IMAGE_HASH3.png" width="70%" alt="Saving Configuration with write memory" />
+<img src="https://github.com/user-attachments/assets/296ca1c1-1f75-4a49-a899-1d2288124299" width="70%" alt="Saving Configuration with write memory" />
 </p>
 
 ---
@@ -96,6 +96,6 @@ To connect to the console port on the 3560-X switch, use a USB Mini Type B cable
 ### 9. Final Setup Overview
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/YOUR_IMAGE_HASH4.png" width="70%" alt="Final Cisco Switch Setup Overview" />
+<img src="https://github.com/user-attachments/assets/01a4ecd4-9de1-438e-89e9-8e82c8a9c54c" width="70%" alt="Final Cisco Switch Setup Overview" />
 </p>
 
