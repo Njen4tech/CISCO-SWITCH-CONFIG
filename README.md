@@ -99,3 +99,10 @@ To connect to the console port on the 3560-X switch, use a USB Mini Type B cable
 <img src="https://github.com/user-attachments/assets/01a4ecd4-9de1-438e-89e9-8e82c8a9c54c" width="70%" alt="Final Cisco Switch Setup Overview" />
 </p>
 
+---
+
+### 10. Enable SSH for Remote Access
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/your-image-placeholder-ssh" width="70%" alt="Enable SSH on Cisco Switch" />
+</p>
