@@ -112,7 +112,7 @@ To connect to the console port on the 3560-X switch, use a USB Mini Type B cable
 ### 11. S
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/01976eb3-091b-45d8-8134-1869be824fd0" width="70%" alt="Final Cisco Switch Setup Overview" />
+<img src="https://github.com/user-attachments/assets/176f8805-42eb-4b47-94a7-ad62c4babbf1"  width="70%" alt="Final Cisco Switch Setup Overview" />
 </p>
 
 ---
