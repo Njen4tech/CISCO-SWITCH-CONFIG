@@ -109,7 +109,7 @@ To connect to the console port on the 3560-X switch, use a USB Mini Type B cable
 
 ---
 
-### 11. S
+### 11. Enable Network Interface
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/176f8805-42eb-4b47-94a7-ad62c4babbf1"  width="70%" alt="Final Cisco Switch Setup Overview" />
@@ -118,6 +118,20 @@ To connect to the console port on the 3560-X switch, use a USB Mini Type B cable
 ---
 
 ### 12. S
+
+<p align="center">
+<img src="" width="70%" alt="Enable SSH on Cisco Switch" />
+
+---
+
+### 13. S
+
+<p align="center">
+<img src="" width="70%" alt="Enable SSH on Cisco Switch" />
+
+---
+
+### 14. S
 
 <p align="center">
 <img src="" width="70%" alt="Enable SSH on Cisco Switch" />
