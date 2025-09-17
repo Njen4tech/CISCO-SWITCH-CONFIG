@@ -125,7 +125,7 @@ To connect to the console port on the 3560-X switch, use a USB Mini Type B cable
 
 ---
 
-### 13. Connect the Windows Laptop with an Ethernet cable
+### 13. Connect the Laptop with an Ethernet cable to the Cisco switch.
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/aeefc812-8e11-457e-87d3-dd55e8fd362d" width="70%" alt="Enable SSH on Cisco Switch" />
@@ -133,7 +133,7 @@ To connect to the console port on the 3560-X switch, use a USB Mini Type B cable
 
 ---
 
-### 14. Open Internet adapter settings
+### 14. Ethernet Connected with (No Ethernet)
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/47542a33-b0b1-4caa-b863-bee1865bf6a6" width="70%" alt="Enable SSH on Cisco Switch" />
@@ -141,7 +141,7 @@ To connect to the console port on the 3560-X switch, use a USB Mini Type B cable
 
 ---
 
-### 15. Set
+### 15. Open Internet adapter settings
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/89674b19-dbd3-43d2-81f7-016ded705da2" width="70%" alt="Enable SSH on Cisco Switch" /> 
