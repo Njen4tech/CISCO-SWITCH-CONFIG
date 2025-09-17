@@ -117,7 +117,15 @@ To connect to the console port on the 3560-X switch, use a USB Mini Type B cable
 
 ---
 
-### 12. S
+### 12. Enable IP Address for the selected VLAN
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/647d3bb4-c5c2-4800-92e5-914f6ef33194"  width="70%" alt="Final Cisco Switch Setup Overview" />
+</p>
+
+---
+
+### 13. Connect the Windows Laptop with an Ethernet cable
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/aeefc812-8e11-457e-87d3-dd55e8fd362d" width="70%" alt="Enable SSH on Cisco Switch" />
@@ -125,27 +133,31 @@ To connect to the console port on the 3560-X switch, use a USB Mini Type B cable
 
 ---
 
-### 13. S
+### 14. Open Internet adapter settings
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/47542a33-b0b1-4caa-b863-bee1865bf6a6" width="70%" alt="Enable SSH on Cisco Switch" />
+</p>
 
 ---
 
-### 14. S
+### 15. Set
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/89674b19-dbd3-43d2-81f7-016ded705da2" width="70%" alt="Enable SSH on Cisco Switch" /> 
+</p>
 
 ---
 
-### 15. S
+### 16. S
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/6e5c13c9-caee-44e9-a434-38336a4af410" width="70%" alt="Enable SSH on Cisco Switch" />
 </p>
 
-### 16. S
+---
+
+### 17. S
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/74682236-8f1a-4c1f-a50e-345293b70420" width="70%" alt="Enable SSH on Cisco Switch" />
