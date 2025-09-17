@@ -10,6 +10,7 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 
 - **USB Type** (Mini Type B)
 - **Power Cable**
+- **Ethernet Cable**
 - **Cisco 3560-X 48-Port Switch**
 
 ---
@@ -25,6 +26,7 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 ## 🔧 CCL Walk-through
 
 ### 1. Locating Console Port
+Open Console 
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/eea95b75-3043-4b70-834e-966a9909307c" width="70%" alt="Cisco Console Port" />
