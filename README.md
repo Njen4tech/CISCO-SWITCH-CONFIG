@@ -133,7 +133,7 @@ To connect to the console port on the 3560-X switch, use a USB Mini Type B cable
 
 ---
 
-### 14. Ethernet Connected with (No Ethernet)
+### 14. Ethernet Connected with (No Internet)
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/47542a33-b0b1-4caa-b863-bee1865bf6a6" width="70%" alt="Enable SSH on Cisco Switch" />
@@ -149,7 +149,7 @@ To connect to the console port on the 3560-X switch, use a USB Mini Type B cable
 
 ---
 
-### 16. S
+### 16. Setting Internet Protocol IPv4
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/6e5c13c9-caee-44e9-a434-38336a4af410" width="70%" alt="Enable SSH on Cisco Switch" />
@@ -157,7 +157,7 @@ To connect to the console port on the 3560-X switch, use a USB Mini Type B cable
 
 ---
 
-### 17. S
+### 17. Open Command Prompt and Ping
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/74682236-8f1a-4c1f-a50e-345293b70420" width="70%" alt="Enable SSH on Cisco Switch" />
