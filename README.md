@@ -26,7 +26,7 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 ## 🔧 CCL Walk-through
 
 ### 1. Turn on the device
-Locate the I/0 port on the rear of the device, plu
+Locate the I/0 port on the rear of the device, plugging into an outlet.
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/eea95b75-3043-4b70-834e-966a9909307c" width="70%" alt="Cisco Console Port" />
@@ -45,6 +45,9 @@ To connect to the console port on the 3560-X switch, use a USB Mini Type B cable
 ---
 
 ### 3. Use PuTTY to Configure the Switch
+
+?Putty or TeraTerm Software.
+?
 
 <p align="center">
 <!-- Replace the empty src with your image URL -->
