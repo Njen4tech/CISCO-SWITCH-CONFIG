@@ -25,8 +25,8 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 
 ## 🔧 CCL Walk-through
 
-### 1. Locating the Console Port and Turning on the Device
-Locate the power cable and plug it into the rear of the switch
+### 1. Turn on the device
+Locate the I/0 port on the rear of the device, plu
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/eea95b75-3043-4b70-834e-966a9909307c" width="70%" alt="Cisco Console Port" />
