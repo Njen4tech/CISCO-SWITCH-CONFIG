@@ -94,8 +94,8 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 **Instructions:**
 - In global config mode, type:
   ```bash
-  interface vlan 1
-  ip address 192.168.1.2 255.255.255.0
+  interface vlan 10 
+  ip address 10.10.10.1 255.255.255.0
   no shutdown
 
 ---
