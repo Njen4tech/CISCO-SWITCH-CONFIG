@@ -26,7 +26,11 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 ## 🔧 CCL Walk-through
 
 ### 1. Turn on the device
-Locate the I/0 port on the rear of the device, plugging into an outlet.
+
+**Instructions:**
+- Plug the power cable into the rear I/O port of the Cisco switch.
+- Connect the other end into a power outlet.
+- Confirm that the switch powers on by observing the LED indicators.
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/eea95b75-3043-4b70-834e-966a9909307c" width="70%" alt="Cisco Console Port" />
@@ -36,7 +40,9 @@ Locate the I/0 port on the rear of the device, plugging into an outlet.
 
 ### 2. Connect to the Console Port
 
-To connect to the console port on the 3560-X switch, use a USB Mini Type B cable.
+**Instructions:**
+- Use a USB Mini Type B cable to connect your laptop to the console port of the switch.
+- Ensure the USB end is plugged into your computer and the Mini Type B into the switch.
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/14a9db29-9d79-4522-ae19-e3483a65ad0a" width="50%" alt="USB Mini Type B" />
@@ -46,11 +52,13 @@ To connect to the console port on the 3560-X switch, use a USB Mini Type B cable
 
 ### 3. Use PuTTY to Configure the Switch
 
->Putty or TeraTerm Software.
->
+**Instructions:**
+- Open **PuTTY** (or **TeraTerm**) on your computer.
+- Select the **Serial** connection type.
+- Enter the COM port that corresponds to your USB-to-Serial adapter.
+- Click **Open** to access the switch terminal.
 
 <p align="center">
-<!-- Replace the empty src with your image URL -->
 <img src="https://github.com/user-attachments/assets/be75c2a0-ab57-46e0-9ce6-254a151dcceb" width="70%" alt="Using PuTTY to Configure" />
 </p>
 
@@ -58,8 +66,12 @@ To connect to the console port on the 3560-X switch, use a USB Mini Type B cable
 
 ### 4. Enter Terminal (Default hostname Change)
 
+**Instructions:**
+- In the terminal, type `enable` and press Enter.
+- Then enter `configure terminal`.
+- Use `hostname <your_hostname>` to rename the switch.
+
 <p align="center">
-<!-- Replace the empty src with your image URL -->
 <img src="https://github.com/user-attachments/assets/e38066b6-9dc5-485b-a29b-45f6c52dc1ab" width="70%" alt="Change Host" />
 </p>
 
@@ -67,8 +79,11 @@ To connect to the console port on the 3560-X switch, use a USB Mini Type B cable
 
 ### 5. Enter Cisco Switch
 
+**Instructions:**
+- At the terminal prompt, press Enter to access the switch CLI.
+- Enter privileged EXEC mode by typing `enable`.
+
 <p align="center">
-<!-- Replace the empty src with your image URL -->
 <img src="https://github.com/user-attachments/assets/6c3227ff-e60c-4c19-8f04-5a2d5ffdb1e7"  width="70%" alt="Installing pfSense" />
 </p>
 
@@ -76,9 +91,12 @@ To connect to the console port on the 3560-X switch, use a USB Mini Type B cable
 
 ### 6. Configure and assign a VLAN hostname.
 
-<p align="center">
-<img src="https://github.com/user-attachments/assets/c9790d40-f62c-4d89-9f29-bb946f213479" width="70%" alt="Assigning IP to Cisco Switch" />
-</p>
+**Instructions:**
+- In global config mode, type:
+  ```bash
+  interface vlan 1
+  ip address 192.168.1.2 255.255.255.0
+  no shutdown
 
 ---
 
