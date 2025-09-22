@@ -93,7 +93,7 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 
 **Instructions:**
 - In global config mode, type:
-  ```bash
+  ```
   interface vlan 10 
   ip address 10.10.10.1 255.255.255.0
   no shutdown
@@ -101,7 +101,8 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 ---
 
 ### 7. View VLAN list. 
-
+    
+    show vlan brief 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/fcd637d7-4f7c-4e76-8325-e0c49e40dff5" width="70%" alt="Ping Test Screenshot" />
 </p>
