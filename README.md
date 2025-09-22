@@ -89,7 +89,7 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 
 ---
 
-### 6. Configure and assign a VLAN hostname.
+### 6. Configure and assign a VLAN.
 
 **Instructions:**
 - In global config mode, type:
@@ -118,14 +118,31 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 ---
 
 ### 9. Final Setup Overview
-
+**Instructions:**
+- Enter for each VLAN from vlan 10 ~ 30
+  ```
+     MySwitch(config)# vlan 10 
+     MySwitch(config-vlan)# name VLAN
+     MySwitch(config-vlan)# exit
+---
+     MySwitch(config)# interface vlan 10
+     MySwitch(config-if)# ip address 10.10.10.1 255.255.255.0
+     MySwitch(config-if)# no shutdown
+     MySwitch(config-if)# exit
 <p align="center">
 <img src="https://github.com/user-attachments/assets/01a4ecd4-9de1-438e-89e9-8e82c8a9c54c" width="70%" alt="Final Cisco Switch Setup Overview" />
+
 </p>
 
 ---
 
 ### 10. Selecting Ports to enable
+    ```
+    MySwitch(config)# interface range GigabitEthernet0/1-12, GigabitEthernet0/13-24
+    MySwitch(config-if-range)# switchport mode access
+    MySwitch(config-if-range)# switchport access vlan 10
+    MySwitch(config-if-range)# no shutdown
+    MySwitch(config-if-range)# exit
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/ce150c75-7a03-40cc-976c-ad97e790921a" width="70%" alt="Enable SSH on Cisco Switch" />
