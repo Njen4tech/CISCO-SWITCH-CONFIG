@@ -137,7 +137,7 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 ---
 
 ### 10. Selecting Ports to enable
-    ```
+  
     MySwitch(config)# interface range GigabitEthernet0/1-12, GigabitEthernet0/13-24
     MySwitch(config-if-range)# switchport mode access
     MySwitch(config-if-range)# switchport access vlan 10
@@ -145,15 +145,6 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
     MySwitch(config-if-range)# exit
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/ce150c75-7a03-40cc-976c-ad97e790921a" width="70%" alt="Enable SSH on Cisco Switch" />
-</p>
-
----
-
-### 11. Enable Network Interface
-
-<p align="center">
-<img src="https://github.com/user-attachments/assets/176f8805-42eb-4b47-94a7-ad62c4babbf1"  width="70%" alt="Final Cisco Switch Setup Overview" />
 </p>
 
 ---
