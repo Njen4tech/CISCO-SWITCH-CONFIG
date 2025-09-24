@@ -4,8 +4,6 @@ This is your README. Readme files are where you can communicate what your projec
 
 Write your name on line 6, save it, and then head back to GitHub Desktop.
 
----
-
 ## 🛠️ Utility and Tools
 
 - **USB Type** (Mini Type B)
@@ -25,7 +23,7 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 
 ## 🔧 CCL Walk-through
 
-### 1. Turn on the Device
+### 1. Turn on the device
 
 **Instructions:**
 - Plug the power cable into the rear I/O port of the Cisco switch.
@@ -77,7 +75,7 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 
 ---
 
-### 5. Enter Cisco Switch CLI
+### 5. Enter Cisco Switch
 
 **Instructions:**
 - At the terminal prompt, press Enter to access the switch CLI.
@@ -89,11 +87,11 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 
 ---
 
-### 6. Configure and Assign a VLAN Interface
+### 6. Configure and Assign a VLAN Interface (SVI)
 
 **Instructions:**
 - In global config mode, type:
-  ```bash
+  ```
   interface vlan 10 
   ip address 10.10.10.1 255.255.255.0
   no shutdown
@@ -104,13 +102,13 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 ### 7. View VLAN List
 
 **Instructions:**
-- Type the following command to display VLANs:
-  ```bash
+- Type the following command to display the VLANs:  
+  ```
   show vlan brief
   ```
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/fcd637d7-4f7c-4e76-8325-e0c49e40dff5" width="70%" alt="Ping Test Screenshot" />
+<img src="https://github.com/user-attachments/assets/fcd637d7-4f7c-4e76-8325-e0c49e40dff5" width="70%" alt="VLAN Brief Screenshot" />
 </p>
 
 ---
@@ -118,31 +116,32 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 ### 8. Save the Configuration
 
 **Instructions:**
-- To save your running configuration to startup config, type:
-  ```bash
+- Save the running configuration to NVRAM using:
+  ```
   write memory
   ```
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/296ca1c1-1f75-4a49-a899-1d2288124299" width="70%" alt="Saving Configuration with write memory" />
+<img src="https://github.com/user-attachments/assets/296ca1c1-1f75-4a49-a899-1d2288124299" width="70%" alt="Saving Configuration" />
 </p>
 
 ---
 
-### 9. Configure Multiple VLANs
+### 9. Final Setup Overview
 
 **Instructions:**
 - Repeat the following steps for each VLAN (10 through 30):
-  ```bash
-  MySwitch(config)# vlan 10 
-  MySwitch(config-vlan)# name VLAN10
-  MySwitch(config-vlan)# exit
 
-  MySwitch(config)# interface vlan 10
-  MySwitch(config-if)# ip address 10.10.10.1 255.255.255.0
-  MySwitch(config-if)# no shutdown
-  MySwitch(config-if)# exit
-  ```
+```
+MySwitch(config)# vlan 10 
+MySwitch(config-vlan)# name VLAN
+MySwitch(config-vlan)# exit
+---
+MySwitch(config)# interface vlan 10
+MySwitch(config-if)# ip address 10.10.10.1 255.255.255.0
+MySwitch(config-if)# no shutdown
+MySwitch(config-if)# exit
+```
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/01a4ecd4-9de1-438e-89e9-8e82c8a9c54c" width="70%" alt="Final Cisco Switch Setup Overview" />
@@ -150,109 +149,79 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 
 ---
 
-### 10. Enable Ports and Assign VLAN
+### 10. Select Ports to Enable
 
 **Instructions:**
-- Select multiple ports and assign them to VLAN 10:
-  ```bash
-  MySwitch(config)# interface range GigabitEthernet0/1-12, GigabitEthernet0/13-24
-  MySwitch(config-if-range)# switchport mode access
-  MySwitch(config-if-range)# switchport access vlan 10
-  MySwitch(config-if-range)# no shutdown
-  MySwitch(config-if-range)# exit
+- Use the following command to configure access ports:
+
+```
+MySwitch(config)# interface range GigabitEthernet0/1-12, GigabitEthernet0/13-24
+MySwitch(config-if-range)# switchport mode access
+MySwitch(config-if-range)# switchport access vlan 10
+MySwitch(config-if-range)# no shutdown
+MySwitch(config-if-range)# exit
+```
+
+---
+
+### 11. Enable IP Address for the Selected VLAN
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/647d3bb4-c5c2-4800-92e5-914f6ef33194"  width="70%" alt="Enable VLAN IP Address" />
+</p>
+
+---
+
+### 12. Connect the Laptop with an Ethernet Cable to the Cisco Switch
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/aeefc812-8e11-457e-87d3-dd55e8fd362d" width="70%" alt="Connect Laptop via Ethernet Cable" />
+</p>
+
+---
+
+### 13. Verify Physical Port Connection
+
+**Instructions:**
+- On the Cisco switch CLI, type the following command:
   ```
-
-<p align="center"></p>
-
----
-
-### 11. Enable Network Interface
-
-**Instructions:**
-- Ensure all interfaces are up:
-  ```bash
-  show ip interface brief
+  show interfaces status
   ```
+- Look for the port you connected (e.g., `Gi0/7`).  
+- The **Status** column should display `connected`.  
+- If it shows `notconnect`, check the cable or try another port.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/176f8805-42eb-4b47-94a7-ad62c4babbf1" width="70%" alt="Check Interfaces" />
+<img src="https://github.com/user-attachments/assets/ce67a050-3ce5-417b-8c6b-9f6cab816a85"  width="70%" alt="Check Port Connection with show interfaces status" />
 </p>
 
 ---
 
-### 12. Assign IP Address to VLAN
-
-**Instructions:**
-- Reconfirm the VLAN interface IP setup:
-  ```bash
-  interface vlan 10
-  ip address 10.10.10.1 255.255.255.0
-  no shutdown
-  ```
+### 14. Ethernet Connected (No Internet Access)
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/647d3bb4-c5c2-4800-92e5-914f6ef33194"  width="70%" alt="Final Cisco Switch Setup Overview" />
+<img src="https://github.com/user-attachments/assets/47542a33-b0b1-4caa-b863-bee1865bf6a6" width="70%" alt="Ethernet Connected but No Internet" />
 </p>
 
 ---
 
-### 13. Connect Laptop to Cisco Switch
-
-**Instructions:**
-- Use an Ethernet cable to connect your laptop to one of the active switch ports.
+### 15. Open Internet Adapter Settings
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/aeefc812-8e11-457e-87d3-dd55e8fd362d" width="70%" alt="Laptop Connection" />
+<img src="https://github.com/user-attachments/assets/89674b19-dbd3-43d2-81f7-016ded705da2" width="70%" alt="Open Adapter Settings" /> 
 </p>
 
 ---
 
-### 14. Verify Ethernet Connection (No Internet Yet)
-
-**Instructions:**
-- Check your system tray or adapter settings to confirm the Ethernet connection is established.
+### 16. Setting Internet Protocol IPv4
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/47542a33-b0b1-4caa-b863-bee1865bf6a6" width="70%" alt="Ethernet No Internet" />
+<img src="https://github.com/user-attachments/assets/6e5c13c9-caee-44e9-a434-38336a4af410" width="70%" alt="Set IPv4 Properties" />
 </p>
 
 ---
 
-### 15. Open Network Adapter Settings
-
-**Instructions:**
-- Navigate to your computer’s **Network and Sharing Center**.
-- Select your Ethernet adapter and open its properties.
-
-<p align="center">
-<img src="https://github.com/user-attachments/assets/89674b19-dbd3-43d2-81f7-016ded705da2" width="70%" alt="Network Adapter Settings" /> 
-</p>
-
----
-
-### 16. Set IPv4 Address Manually
-
-**Instructions:**
-- Configure the adapter with an IP in the same subnet as the switch VLAN.  
-  Example:
-  - IP address: `10.10.10.2`
-  - Subnet mask: `255.255.255.0`
-  - Default gateway: `10.10.10.1`
-
-<p align="center">
-<img src="https://github.com/user-attachments/assets/6e5c13c9-caee-44e9-a434-38336a4af410" width="70%" alt="IPv4 Settings" />
-</p>
-
----
-
-### 17. Test Connectivity with Ping
-
-**Instructions:**
-- Open Command Prompt and type:
-  ```bash
-  ping 10.10.10.1
-  ```
-- You should receive replies if everything is configured correctly.
+### 17. Open Command Prompt and Ping
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/74682236-8f1a-4c1f-a50e-345293b70420" width="70%" alt="Ping Test" />
