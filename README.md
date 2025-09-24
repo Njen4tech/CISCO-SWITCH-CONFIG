@@ -272,7 +272,7 @@ show interfaces status
 **Instructions:**
 - Configure the adapter with an IP in the same subnet as the switch VLAN.  
   Example:
-  - IP address: `10.10.10.2`
+  - IP address: `10.10.10.5`
   - Subnet mask: `255.255.255.0`
   - Default gateway: `10.10.10.1`
 
