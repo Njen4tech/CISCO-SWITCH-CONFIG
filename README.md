@@ -206,7 +206,7 @@ no shutdown
 ```
 
 <p align="center">
-<img src=""  width="70%" alt="VLAN IP Configuration" />
+<img src="https://github.com/user-attachments/assets/a102d889-bee4-4ec5-957d-5091e8618150"  width="70%" alt="VLAN IP Configuration" />
 </p>
 
 
@@ -236,7 +236,7 @@ show interfaces status
 - If it shows `notconnect`, check the cable or try another port.
 
 <p align="center">
-<img src="d64f4682-1554-4556-b3e3-f348704fd09d.png" width="70%" alt="show interfaces status output (port connection)" />
+<img src="https://github.com/user-attachments/assets/05fdd924-d743-4c18-9167-d7ef8280d3cb" width="70%" alt=" show interfaces status output (port connection)" />
 </p>
 
 
