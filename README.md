@@ -190,7 +190,7 @@ no shutdown
 exit
 ```
 <p align="center">
-<img src="" width="70%" alt="Final Cisco Switch Setup Overview" />
+<img src="https://github.com/user-attachments/assets/63ac162e-c484-45e0-95d9-eea202db0a9a" width="70%" alt="Final Cisco Switch Setup Overview" />
 </p>
 
 ---
@@ -206,7 +206,7 @@ no shutdown
 ```
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/7f8a6643-9500-4757-9739-dfe814e88b56"  width="70%" alt="VLAN IP Configuration" />
+<img src=""  width="70%" alt="VLAN IP Configuration" />
 </p>
 
 
