@@ -1,4 +1,4 @@
-# Welcome to CISCO setup!
+# Welcome to CISCO Switch setup!
 
 This is your README. Readme files are where you can communicate what your project is and how to use it.
 
