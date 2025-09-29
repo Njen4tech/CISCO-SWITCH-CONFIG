@@ -288,7 +288,7 @@ show interfaces status
 **Instructions:**
 - Open Command Prompt and type:
 ```bash
-ping 10.10.10.1
+ping 10.10.10.5
 ```
 - You should receive replies if everything is configured correctly.
 
