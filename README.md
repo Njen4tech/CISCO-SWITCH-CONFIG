@@ -272,12 +272,12 @@ show interfaces status
 **Instructions:**
 - Configure the adapter with an IP in the same subnet as the switch VLAN.  
   Example:
-  - IP address: `10.10.10.5`
+  - IP address: `10.10.10.1`
   - Subnet mask: `255.255.255.0`
-  - Default gateway: `10.10.10.1`
+  - Default gateway: `10.10.10.5`
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/6e5c13c9-caee-44e9-a434-38336a4af410" width="70%" alt="IPv4 Settings" />
+<img src="https://github.com/user-attachments/assets/3e4b7b5b-aba7-4ebf-b2f3-08edf0ef3585"  width="70%" alt="IPv4 Settings" />
 </p>
 
 
