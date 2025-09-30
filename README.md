@@ -110,7 +110,7 @@ enable
 - In global config mode, type:
 ```bash
 interface vlan 10
-ip address 10.10.10.1 255.255.255.0
+ip address 10.10.10.5 255.255.255.0
 no shutdown
 ```
 
@@ -127,7 +127,7 @@ name VLAN10
 exit
 
 interface vlan 10
-ip address 10.10.10.1 255.255.255.0
+ip address 10.10.10.5 255.255.255.0
 no shutdown
 exit
 
@@ -136,7 +136,7 @@ name VLAN20
 exit
 
 interface vlan 20
-ip address 10.10.20.1 255.255.255.0
+ip address 10.10.20.5 255.255.255.0
 no shutdown
 exit
 ```
@@ -201,7 +201,7 @@ exit
 - Reconfirm the VLAN interface IP setup:
 ```bash
 interface vlan 10
-ip address 10.10.10.1 255.255.255.0
+ip address 10.10.10.5 255.255.255.0
 no shutdown
 ```
 
