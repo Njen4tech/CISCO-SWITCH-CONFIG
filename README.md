@@ -206,7 +206,7 @@ no shutdown
 ```
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/a102d889-bee4-4ec5-957d-5091e8618150"  width="70%" alt="VLAN IP Configuration" />
+<img  src="https://github.com/user-attachments/assets/290b4bc7-28bc-429a-9919-480676ceee7a"   width="70%" alt="VLAN IP Configuration" />
 </p>
 
 
